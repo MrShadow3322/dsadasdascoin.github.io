@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RatCoin Web App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .balance {
+      font-size: 2em;
+      color: orange;
+    }
+    .button {
+      background-color: orange;
+      border: none;
+      color: #fff;
+      padding: 15px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .tasks {
+      margin-top: 20px;
+    }
+    .task {
+      background-color: #222;
+      padding: 10px;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to RatCoin</h1>
+    <div id="balance" class="balance">Loading balance...</div>
+    <div class="tasks">
+      <div class="task">
+        <p>Subscribe to our Telegram channel for 1000 RatCoin</p>
+        <button class="button" onclick="subscribe()">Subscribe</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
